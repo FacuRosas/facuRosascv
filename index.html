@@ -6,114 +6,155 @@
     <title>Curriculum Vitae - Facundo Rosas</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e9ecef;
             color: #333;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            display: flex;
+            width: 85%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .left-column {
+            width: 30%;
+            padding-right: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .right-column {
+            width: 70%;
+            padding-left: 20px;
         }
         header {
-            background: #333;
+            background: #007bff;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            position: relative;
         }
         header h1 {
-            text-align: center;
-            text-transform: uppercase;
+            font-size: 28px;
             margin: 0;
-            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header img {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         section {
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
-            border-radius: 8px;
+            margin-bottom: 20px;
         }
         h2 {
-            color: #0779e4;
-            border-bottom: 2px solid #0779e4;
+            color: #007bff;
+            font-size: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff;
             padding-bottom: 5px;
         }
-        ul {
-            list-style: none;
+        p, ul {
+            margin: 0;
             padding: 0;
+            font-size: 16px;
+        }
+        ul {
+            list-style-type: none;
         }
         ul li {
-            background: #f4f4f4;
-            margin: 5px 0;
-            padding: 10px;
-            border: #ccc 1px solid;
-            border-radius: 4px;
+            padding: 8px 10px;
+            margin-bottom: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
             text-align: center;
-            padding: 20px;
-            background: #333;
+            padding: 10px;
+            background-color: #007bff;
             color: #fff;
             margin-top: 20px;
+            border-radius: 0 0 10px 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Curriculum Facundo Rosas</h1>
+        <h1>Curriculum Vitae - Facundo Rosas</h1>
+        <img src="ruta/a/tu/foto.jpg" alt="Foto de Facundo Rosas">
     </header>
     <div class="container">
-        <section>
-            <h2>Información Personal</h2>
-            <p><strong>Nombre:</strong> Facundo Rosas</p>
-            <p><strong>Dirección:</strong> La Rioja 594, 5963 Villa del Rosario (Cba, Arg)</p>
-            <p><strong>Teléfono:</strong> (3573) 405658</p>
-            <p><strong>Email:</strong> facundomatiasrosas@gmail.com</p>
-        </section>
-        <section>
-            <h2>Perfil Personal</h2>
-            <p>Soy una persona altamente motivada y dedicada que está buscando activamente oportunidades laborales. Estoy dispuesto a esforzarme al máximo para alcanzar mis metas profesionales y contribuir de manera significativa al éxito de la empresa. Soy proactivo, comprometido y preparado para enfrentar desafíos y adaptarme rápidamente a los cambios.</p>
-        </section>
-        <section>
-            <h2>Experiencia</h2>
-            <p>Aunque no cuento con experiencia laboral formal, he desarrollado habilidades robustas en Diseño y Programación a través de mis estudios. Estoy motivado y dispuesto a aprender, con habilidades útiles como el trabajo en equipo, la resolución de problemas y la comunicación efectiva.</p>
-        </section>
-        <section>
-            <h2>Formación Académica</h2>
-            <ul>
-                <li><strong>I.C.M.A. “Inmaculado Corazon de Maria Adoratrices”, Villa del Rosario, Cba:</strong> Título de bachiller en Ciencias Sociales y Humanidades.</li>
-                <li><strong>Instituto Superior, Villa del Rosario, Cba:</strong> Título de Técnico Superior en Desarrollo de Software (cursando 3° año).</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Aptitudes</h2>
-            <ul>
-                <li>Manejo de programas de Diseño.</li>
-                <li>Manejo del Ingles tecnico.</li>
-                <li>Manejo de bases de datos con estructura SQL.</li>
-                <li>Conocimientos básicos en lenguajes de programación: PHP, JavaScript, HTML, CSS, Kotlin y XML.</li>
-                <li>Manejo de Visual Basic, Visual Studio Code y Android Studio.</li>
-                <li>Conocimientos en Diseño grafico.</li>
-                <li>Manejo de GitHub.</li>
-                <li>Conocimientos en computación tanto en software como en hardware.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Idiomas</h2>
-            <p>Inglés A2 Key.</p>
-            <p>Español Nativo.</p>
-        </section>
-        <section>
-            <h2>Proyectos Propios</h2>
-            <ul>
-                <li><strong>LOTIFY:</strong> <a href="https://github.com/Lucas-almada015/LOTIFY.llfsa">Proyecto LOTIFY</a></li>
-                <li><strong>Lubricentro:</strong> <a href="https://github.com/FacuRosas/Lubricentro">Proyecto Lubricentro</a></li>
-            </ul>
-        </section>
+        <div class="left-column">
+            <section>
+                <h2>Información Personal</h2>
+                <p><strong>Nombre:</strong> Facundo Rosas</p>
+                <p><strong>Dirección:</strong> La Rioja 594, 5963 Villa del Rosario (Cba, Arg)</p>
+                <p><strong>Teléfono:</strong> (3573) 405658</p>
+                <p><strong>Email:</strong> facundomatiasrosas@gmail.com</p>
+            </section>
+            <section>
+                <h2>Aptitudes</h2>
+                <ul>
+                    <li>Manejo de programas de Diseño.</li>
+                    <li>Manejo del Ingles técnico.</li>
+                    <li>Manejo de bases de datos con estructura SQL.</li>
+                    <li>Conocimientos básicos en lenguajes de programación: PHP, JavaScript, HTML, CSS, Kotlin y XML.</li>
+                    <li>Manejo de Visual Basic, Visual Studio Code y Android Studio.</li>
+                    <li>Conocimientos en Diseño gráfico.</li>
+                    <li>Manejo de GitHub.</li>
+                    <li>Conocimientos en computación tanto en software como en hardware.</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-column">
+            <section>
+                <h2>Perfil Personal</h2>
+                <p>Soy una persona altamente motivada y dedicada que está buscando activamente oportunidades laborales. Estoy dispuesto a esforzarme al máximo para alcanzar mis metas profesionales y contribuir de manera significativa al éxito de la empresa. Soy proactivo, comprometido y preparado para enfrentar desafíos y adaptarme rápidamente a los cambios.</p>
+            </section>
+            <section>
+                <h2>Experiencia</h2>
+                <p>Aunque no cuento con experiencia laboral formal, he desarrollado habilidades robustas en Diseño y Programación a través de mis estudios. Estoy motivado y dispuesto a aprender, con habilidades útiles como el trabajo en equipo, la resolución de problemas y la comunicación efectiva.</p>
+            </section>
+            <section>
+                <h2>Formación Académica</h2>
+                <ul>
+                    <li><strong>I.C.M.A. “Inmaculado Corazon de Maria Adoratrices”, Villa del Rosario, Cba:</strong> Título de bachiller en Ciencias Sociales y Humanidades.</li>
+                    <li><strong>Instituto Superior, Villa del Rosario, Cba:</strong> Título de Técnico Superior en Desarrollo de Software (cursando 3° año).</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Idiomas</h2>
+                <p>Inglés A2 Key.</p>
+                <p>Español Nativo.</p>
+            </section>
+            <section>
+                <h2>Proyectos Propios</h2>
+                <ul>
+                    <li><strong>LOTIFY:</strong> <a href="https://github.com/Lucas-almada015/LOTIFY.llfsa">Proyecto LOTIFY</a></li>
+                    <li><strong>Lubricentro:</strong> <a href="https://github.com/FacuRosas/Lubricentro">Proyecto Lubricentro</a></li>
+                </ul>
+            </section>
+        </div>
     </div>
     <footer>
         <p>Facundo Rosas - 2024</p>
